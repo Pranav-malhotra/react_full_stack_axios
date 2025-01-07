@@ -1,7 +1,13 @@
+import Posts from "./components/Posts"
+
 const App = () => {
-  return (
-   <h1>Hello react CRUD oeration.</h1>
-  )
+  
+  return( 
+    <section className="main-section">
+       <Posts />
+    </section>
+ 
+  );
 }
 
 export default App
